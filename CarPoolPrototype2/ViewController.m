@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import <FacebookSDK/FacebookSDK.h>
 
-@interface ViewController ()
+@interface ViewController () <FBLoginViewDelegate>
 
 @end
 
@@ -18,6 +19,24 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    FBLoginView* loginView = [[FBLoginView alloc]init];
+    loginView.delegate = self;
+    loginView.frame = CGRectOffset(loginView.frame, 20, 100);
+    [self.view addSubview:loginView];
+    
+}
+
+-(void) loginViewShowingLoggedOutUser:(FBLoginView *)loginView{
+    
+}
+
+-(void) loginViewShowingLoggedInUser:(FBLoginView *)loginView{
+    
+}
+
+-(void) loginViewFetchedUserInfo:(FBLoginView *)loginView user:(id<FBGraphUser>)user{
+    
 }
 
 - (void)didReceiveMemoryWarning

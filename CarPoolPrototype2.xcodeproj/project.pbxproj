@@ -21,6 +21,12 @@
 		6E54A84318C3FBF7000FD7AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E54A82518C3FBF7000FD7AF /* UIKit.framework */; };
 		6E54A84B18C3FBF7000FD7AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E54A84918C3FBF7000FD7AF /* InfoPlist.strings */; };
 		6E54A84D18C3FBF7000FD7AF /* CarPoolPrototype2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E54A84C18C3FBF7000FD7AF /* CarPoolPrototype2Tests.m */; };
+		6E54A85718C3FED2000FD7AF /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E54A85618C3FED2000FD7AF /* Accounts.framework */; };
+		6E54A85918C3FED9000FD7AF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E54A85818C3FED9000FD7AF /* Social.framework */; };
+		6E54A85B18C3FEF6000FD7AF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E54A85A18C3FEF6000FD7AF /* libsqlite3.dylib */; };
+		6E54A85D18C3FEFB000FD7AF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E54A85C18C3FEFB000FD7AF /* AdSupport.framework */; };
+		6E54A85F18C3FF10000FD7AF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E54A85E18C3FF10000FD7AF /* CoreLocation.framework */; };
+		6E54A86118C401A7000FD7AF /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E54A86018C401A7000FD7AF /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		6E54A84818C3FBF7000FD7AF /* CarPoolPrototype2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CarPoolPrototype2Tests-Info.plist"; sourceTree = "<group>"; };
 		6E54A84A18C3FBF7000FD7AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E54A84C18C3FBF7000FD7AF /* CarPoolPrototype2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarPoolPrototype2Tests.m; sourceTree = "<group>"; };
+		6E54A85618C3FED2000FD7AF /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		6E54A85818C3FED9000FD7AF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		6E54A85A18C3FEF6000FD7AF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6E54A85C18C3FEFB000FD7AF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		6E54A85E18C3FF10000FD7AF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6E54A86018C401A7000FD7AF /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E54A85F18C3FF10000FD7AF /* CoreLocation.framework in Frameworks */,
+				6E54A85D18C3FEFB000FD7AF /* AdSupport.framework in Frameworks */,
+				6E54A85B18C3FEF6000FD7AF /* libsqlite3.dylib in Frameworks */,
+				6E54A85918C3FED9000FD7AF /* Social.framework in Frameworks */,
+				6E54A85718C3FED2000FD7AF /* Accounts.framework in Frameworks */,
+				6E54A86118C401A7000FD7AF /* FacebookSDK.framework in Frameworks */,
 				6E54A82418C3FBF7000FD7AF /* CoreGraphics.framework in Frameworks */,
 				6E54A82618C3FBF7000FD7AF /* UIKit.framework in Frameworks */,
 				6E54A82218C3FBF7000FD7AF /* Foundation.framework in Frameworks */,
@@ -101,6 +119,12 @@
 		6E54A82018C3FBF7000FD7AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E54A86018C401A7000FD7AF /* FacebookSDK.framework */,
+				6E54A85E18C3FF10000FD7AF /* CoreLocation.framework */,
+				6E54A85C18C3FEFB000FD7AF /* AdSupport.framework */,
+				6E54A85A18C3FEF6000FD7AF /* libsqlite3.dylib */,
+				6E54A85818C3FED9000FD7AF /* Social.framework */,
+				6E54A85618C3FED2000FD7AF /* Accounts.framework */,
 				6E54A82118C3FBF7000FD7AF /* Foundation.framework */,
 				6E54A82318C3FBF7000FD7AF /* CoreGraphics.framework */,
 				6E54A82518C3FBF7000FD7AF /* UIKit.framework */,
@@ -112,8 +136,6 @@
 		6E54A82718C3FBF7000FD7AF /* CarPoolPrototype2 */ = {
 			isa = PBXGroup;
 			children = (
-				6E54A83018C3FBF7000FD7AF /* AppDelegate.h */,
-				6E54A83118C3FBF7000FD7AF /* AppDelegate.m */,
 				6E54A83318C3FBF7000FD7AF /* Main.storyboard */,
 				6E54A83618C3FBF7000FD7AF /* ViewController.h */,
 				6E54A83718C3FBF7000FD7AF /* ViewController.m */,
@@ -126,6 +148,8 @@
 		6E54A82818C3FBF7000FD7AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6E54A83018C3FBF7000FD7AF /* AppDelegate.h */,
+				6E54A83118C3FBF7000FD7AF /* AppDelegate.m */,
 				6E54A82918C3FBF7000FD7AF /* CarPoolPrototype2-Info.plist */,
 				6E54A82A18C3FBF7000FD7AF /* InfoPlist.strings */,
 				6E54A82D18C3FBF7000FD7AF /* main.m */,
@@ -378,9 +402,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/anoop/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarPoolPrototype2/CarPoolPrototype2-Prefix.pch";
 				INFOPLIST_FILE = "CarPoolPrototype2/CarPoolPrototype2-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,9 +423,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/anoop/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CarPoolPrototype2/CarPoolPrototype2-Prefix.pch";
 				INFOPLIST_FILE = "CarPoolPrototype2/CarPoolPrototype2-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
